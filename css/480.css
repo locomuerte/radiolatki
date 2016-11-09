@@ -1,0 +1,203 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+	color:white;
+	
+	background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+}
+
+#main-container{
+	
+	width: 470px;
+	margin: 0 auto;
+	background-color:white;
+	color:black;
+	border-radius: 7px;
+	opacity: 0.7;
+	
+}
+
+#main-header{
+	
+	height: 60px;
+	
+}
+
+#centerH{
+	
+	text-align:center;
+	font-family: 'Lobster', cursive;
+	color:#007FFF;
+	text-shadow: 5px 5px 5px black;
+	padding-bottom: 20px;
+	letter-spacing: 5px;
+	font-size: 50px;
+	
+}
+
+#radioImg{
+	
+	display:none;
+}
+
+
+#nawigacja{
+	
+	
+	background-color: #007FFF;
+	margin: 30px 10px 30px 10px;
+	height:110px;
+	position:relative;
+	border-radius: 8px;
+	
+}
+
+.navBar {
+	
+	font-size:18px;
+	font-weight:bold;
+	text-shadow: 2px 2px 2px black;
+	text-decoration:none;
+}
+
+.topBar{
+	
+	float:left;
+	margin: 40px 0 0 40px;
+}
+
+.navBar:hover{
+	
+	color:#AC7A33 ;
+}
+a:hover{
+	
+	color:#AC7A33 ;
+}
+ a:link{
+	
+	color:white;
+}
+
+ a:visited{
+	
+	
+	color:white;
+}
+
+hr{
+	/*
+	margin-top: 10px;
+	margin-bottom:10px;
+	color: #007FFF;
+	*/
+	display:none;
+}
+
+#radio{
+	
+	height:60px;
+	margin: 5px 180px 10px 10px;
+	
+}
+
+.radioText {
+	
+	padding: 4px 5px 5px 5px;
+	float:left;
+	margin-right:0px;
+	margin-top: 7px;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	background-color: #007FFF;
+	border-radius: 7px;
+	color:white;
+}
+
+
+.icon-play{
+	
+	font-size: 30px;
+	border: 1px solid #007FFF;
+	border-radius: 7px;
+	padding: 5px 10px 5px 9px;
+	margin:0px;
+	float:right;
+
+}
+
+.icon-play:hover{
+	
+	cursor:pointer;
+}
+
+.icon-stop{
+	
+	font-size: 30px;
+	border: 1px solid #007FFF;
+	border-radius: 7px;
+	padding: 5px 10px 5px 9px;
+	margin:0px;
+	float:right;
+	display:none;
+
+	
+
+}
+
+.icon-stop:hover{
+	
+	cursor:pointer;
+}
+
+#ramowka{
+	
+	padding: 10px 5px 10px 5px;
+	margin: 0px 10px 0px 10px;
+	height: 110px;
+	overflow:auto;
+	font-size:14px;
+	border-top: 2px solid #007FFF;
+	border-bottom: 2px solid #007fff;
+	font-style: italic;
+}
+
+#glowny{
+	
+	margin: 10px 10px 10px 10px;
+}
+
+#gg{
+	
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.ggUl{
+	
+	list-style:none;
+}
+
+#footer{
+	
+	height: 120px;
+	background-color: #007FFF;
+	color:white;
+	margin: 10px;
+	border-radius: 7px;
+}
+
+.footerText{
+	
+	padding: 15px;
+	float: left;
+}
+
+#clear{
+	
+	clear:both:
+}
