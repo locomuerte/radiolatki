@@ -6,11 +6,13 @@ body {
     font-family: 'Lato', sans-serif;
 	color:white;
 
-	/*background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);*/
 
-    background: #00c3ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #00c3ff , #ffff1c); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #00c3ff , #ffff1c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background: #16222A; /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to left, #16222A , #3A6073); */ /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #16222A , #3A6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 
 
 }
@@ -22,7 +24,7 @@ body {
 	background-color:white;
 	color:black;
 	border-radius: 7px;
-	opacity: 0.7;
+	opacity: 0.8;
     font-size:17px;
 
 }
