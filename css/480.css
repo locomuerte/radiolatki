@@ -39,7 +39,7 @@ body {
 
 	text-align:center;
 	font-family: 'Lobster', cursive;
-	color:#007FFF;
+	color:#008080;
 	text-shadow: 5px 5px 5px black;
 	padding-bottom: 20px;
 	letter-spacing: 14px;
@@ -121,8 +121,8 @@ hr{
 	float:left;
     height: 38px;
 	margin-right:0px;
-	margin-top: 1px;
-    margin-bottom: 7px;
+	margin-top: 0px;
+    margin-bottom: 2px;
 	font-size: 20px;
 	font-family: 'Lato', sans-serif;
 	background-color: #007FFF;
@@ -195,6 +195,11 @@ hr{
 	list-style:none;
 }
 
+.ggIcon {
+    width: 14px;
+    height: 14px;
+}
+
 #footer{
 
 	height: 120px;
@@ -206,8 +211,23 @@ hr{
 
 .footerText{
 
-	padding: 15px;
+	padding-top: 80px;
+    padding-left: 10px;
 	float: left;
+    font-size:12px;
+    word-wrap: break-word;
+}
+
+.footerFb {
+
+    float:right;
+    margin-top: 35px;
+    margin-right: 25px;
+}
+.icon-facebook{
+
+    font-size: 48px;
+
 }
 
 #fSpan{
@@ -219,4 +239,68 @@ hr{
 #clear{
 
 	clear:both:
+}
+
+/* strona pozdrów */
+
+label {
+
+    padding: 10px 0px 10px 0px;
+}
+
+#nickM {
+
+    height: 35px;
+    width: 420px;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid #007FFF;
+
+
+}
+
+#nickM:focus {
+
+    border: 3px solid #007FFF;
+
+}
+
+#messageM {
+
+    height: 80px;
+    width: 420px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #007FFF;
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#messageM:focus {
+
+    border: 3px solid #007FFF;
+}
+
+#submitButton {
+
+    float: right;
+    width: 80px;
+    height: 30px;
+    margin-right: 18px;
+    margin-top: 10px;
+    background-color: #007FFF;
+    border:none;
+    color:white;
+    cursor:pointer;
+
+}
+
+#submitButton:hover {
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    color: #007FFF;
+    border: 1px solid #007fff;
 }
