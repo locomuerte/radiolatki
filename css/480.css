@@ -244,7 +244,7 @@ hr{
 
 #clear{
 
-	clear:both:
+	clear:both;
 }
 
 /* strona pozdrów */
@@ -281,7 +281,6 @@ label {
     border: 1px solid #007FFF;
     font-size: 19px;
     font-family: 'Lato', sans-serif;
-    wrap:hard;
 
 }
 
