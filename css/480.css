@@ -38,12 +38,13 @@ body {
 #centerH{
 
 	text-align:center;
-	font-family: 'Lobster', cursive;
+	font-family:arial, sans-serif;
+    font-weight: bold;
 	color:#008080;
 	text-shadow: 5px 5px 5px black;
 	padding-bottom: 20px;
 	letter-spacing: 14px;
-	font-size: 70px;
+	font-size: 50px;
 
 }
 
@@ -256,7 +257,7 @@ label {
 #nickM {
 
     height: 35px;
-    width: 420px;
+    width: 440px;
     padding: 5px;
     font-size: 25px;
     border-radius: 5px;
@@ -274,7 +275,7 @@ label {
 #messageM {
 
     height: 80px;
-    width: 420px;
+    width: 440px;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #007FFF;
