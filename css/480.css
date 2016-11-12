@@ -185,7 +185,7 @@ hr{
 
 #gg{
 
-	height: 200px;
+	height: 340px;
 	margin: 10px;
 	padding: 10px;
 }
@@ -193,6 +193,11 @@ hr{
 .ggUl{
 
 	list-style:none;
+}
+
+.ggList {
+
+    padding-bottom: 20px;
 }
 
 .ggIcon {
@@ -275,6 +280,7 @@ label {
     border: 1px solid #007FFF;
     font-size: 19px;
     font-family: 'Lato', sans-serif;
+    wrap:hard;
 
 }
 
